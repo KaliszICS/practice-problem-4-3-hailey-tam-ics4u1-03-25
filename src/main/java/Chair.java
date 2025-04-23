@@ -8,9 +8,9 @@
     private String material;
 
     /**
-     * Constructor 1: Handles both legs and material
-     * @param legs a integer that stores the initial state of how many legs the chair has
-     * @param material a String that stores the intital state of what material the chair is made of
+     * Constructor 1: creates a chair with a specific material and number of legs
+     * @param legs a integer that represent how many legs the chair has
+     * @param material a String represents the material the chair is made of
      */
 
     public Chair(int legs, String material){
@@ -19,8 +19,8 @@
     }
 
     /**
-     * Constructor 2: Handles only legs
-     * @param legs a integer that stores the initial state of how many legs the chair has
+     * Constructor 2: creates a chair with a specific number of legs
+     * @param legs a integer that represents how many legs the chair has
      * Material is set to wood by default
      */
 
@@ -29,7 +29,7 @@
     }
 
     /**
-     * Constructor 3: Does not handle any parameters
+     * Constructor 3: does not specific the number of legs and material of the chair
      * Legs are set to 4 by default
      * Material is set to wood by default
      */
@@ -39,8 +39,8 @@
     }
 
     /**
-     * 
-     * @return returns the value of how many legs the chair has
+     * Gets the number of legs the chair has
+     * @return returns the value of how many legs the chair has as a doube
      */
 
     public int getLegs(){
@@ -48,8 +48,8 @@
     }
 
     /**
-     * 
-     * @return returns what material the chair is made of
+     * Gets the material of the chair
+     * @return returns what material the chair is made of as a string
      */
 
     public String getMaterial(){

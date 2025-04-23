@@ -1,16 +1,16 @@
 /**
- * Rectangle class creates the length and width of a rectangle
+ * Rectangle class creates a rectangle based on its length and width
  * @author Hailey Tam
  */
 
-class Rectangle{
+public class Rectangle{
     private double length;
     private double width;
 
     /**
-     * Constructor 1: Handles all the parameters, length and width
-     * @param l a double that is used to set the intital state of the length of a rectangle
-     * @param w a double that is used to set the intital state of the width of a rectangle
+     * Constructor 1: creates a rectangle that has a specific length and width
+     * @param l a double that represents the length of a rectangle
+     * @param w a double that represents the width of a rectangle
      */
 
     public Rectangle(double l, double w){
@@ -19,8 +19,8 @@ class Rectangle{
     }
 
     /**
-     * Constructor 2: Only handles length
-     * @param l a double that is used to set the intital state of the length of the rectangle
+     * Constructor 2: creates a rectangle that has a specific length
+     * @param l a double that represents length of the rectangle
      * Width is set to 8 by default
      */
 
@@ -29,7 +29,7 @@ class Rectangle{
     }
 
     /**
-     * Constructor 3: Does not handle any parameters
+     * Constructor 3: does not specific a length and width for the rectangle
      * Length is set to 4 by default
      * Width is set to 8 by default
      */
@@ -39,8 +39,8 @@ class Rectangle{
     }
 
     /**
-     * 
-     * @return returns the length of the rectangle
+     * Gets the length of the rectangle 
+     * @return returns the length of the rectangle as a double
      */
 
     public double getLength(){
@@ -48,8 +48,8 @@ class Rectangle{
     }
 
     /**
-     * 
-     * @return returns the width of the rectangle
+     * Gets the width of the rectangle
+     * @return returns the width of the rectangle as a double
      */
 
     public double getWidth(){
